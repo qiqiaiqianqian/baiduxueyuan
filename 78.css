@@ -1,0 +1,122 @@
+.nav {
+  width: 960px;
+  margin: 0 auto;
+}
+.nav p {
+    float: left;
+    padding-left: 100px;
+    color: white;
+}
+p:nth-of-type(2) {
+    padding-right: 40px;
+    float: right;
+    font-size: 10px;
+}
+a {
+  color: white;
+}
+header {
+    background-color: rgba(39,37,37,0.89);
+    float: top;
+    width: 1255px;
+    height: 50px;
+}
+.banner {
+    background-color: rgba(114,208,56,0.89);
+    width: 1255px;
+    height: 180px;
+    margin-top: 0;
+}
+.square {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 1000px;
+}
+.square span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: rgba(104,192,72,0.67);
+    border: 1px solid rgba(102,192,7,0.57);
+    text-align: center;
+    line-height: 16px;
+    cursor: pointer;
+    color: rgba(35,96,8,0.57);
+}
+.square span.current {
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  height: 30px;
+}
+.info-box {
+    height: 40px;
+    width: 1255px;
+    border-bottom: 1px solid gainsboro;
+    margin: 0 auto;
+}
+.info-box ul {
+    margin-left: 150px;
+    margin-top: 0;
+    padding-left: 0;
+}
+.info-box li {
+    float: left;
+    width: 60px;
+    height: 40px;
+    list-style-type: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid gainsboro;
+    border-bottom: none;
+    display: inline;
+    overflow: hidden;
+}
+.info-box li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 15px;
+}
+.info-box li a:focus {
+    background-color:white;
+}
+.info-box li a:hover {
+    background-color: white;
+}
+.info-box li a:active {
+   background-color: white;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.item {
+    border: 1px solid gainsboro;
+    text-align: center;
+    list-style-type: none;
+    padding: 80px;
+    margin: 1px;
+    flex-grow: 1;
+}
+footer {
+    background-color: rgba(91,89,88,0.89);
+    width: 1255px;
+    height: 90px;;
+    bottom: 0;
+}
+footer p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
